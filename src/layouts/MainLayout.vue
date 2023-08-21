@@ -4,10 +4,10 @@
     <div class="text-white header" style="background-color: rgba(0, 0, 0, 0);">
       <q-toolbar>
         <q-toolbar-title>
-          <q-avatar class="q-pr-md">
+          <q-avatar class="q-pr-xl">
             <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg">
           </q-avatar>
-          Joginho de luta 2D
+          Blind Fighters
         </q-toolbar-title>
         <q-tabs v-model="tab" shrink stretch aria-checked="true">
           <q-route-tab to="/" label="Home" />

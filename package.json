@@ -2,7 +2,7 @@
   "name": "packpage.json",
   "version": "0.0.1",
   "description": "A Quasar Project",
-  "productName": ".",
+  "productName": "Blind Fighters",
   "author": "viniciosdavid1@gmail.com <viniciosdavid1@gmail.com>",
   "private": true,
   "scripts": {
