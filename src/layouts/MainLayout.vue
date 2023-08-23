@@ -14,7 +14,7 @@
         <q-tabs v-model="tab" shrink stretch aria-checked="true">
           <q-route-tab name="home" to="/" label="Home" />
           <q-route-tab name="about" to="/about" label="About US" />
-          <q-route-tab name="youtube" to="/youtube" label="Youtube" />
+          <a href="http://www.youtube.com" target="_blank" rel="noopener noreferrer"><q-route-tab name="youtube"  label="Youtube" /></a>
           <q-route-tab name="conctact" to="/contact" label="Contact ME" />
         </q-tabs>
       </q-toolbar>

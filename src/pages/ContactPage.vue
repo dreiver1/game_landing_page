@@ -1,21 +1,23 @@
 <template>
   <q-page class="column full-width items-center content-center justify-center" style="background-image: url('https://images.alphacoders.com/128/1289055.jpg'); background-size: cover;">
     <div class="row justify-start full-width col-12">
-      <div class="row flex-center wrap col-6 text-white about">
-        <div class="text-h4 q-ma-lg col-6">
+      <div class="row flex-center wrap col-12 text-white about">
+        <div class="text-h4 q-ma-lg col-8">
           Contatos:
         </div>
-        <div class="text-h4 q-ma-lg col-6">
-          <q-icon><img src="../assets/instagram.png"></q-icon>
-          Instagram
-        </div>
-        <div class="text-h4 q-ma-lg col-6">
-          <q-icon><img src="../assets/youtube.png"></q-icon>
-          youtube
-        </div>
-        <div class="text-h4 q-ma-lg col-6">
+        <div class="text-h4 q-ma-lg col-8">
           <q-icon name="mail" class="text-black"></q-icon>
-          email
+            email: blindfighters@gmail.com
+        </div>
+        <div class="text-h4 q-ma-lg col-8">
+          <q-icon><img src="../assets/youtube.png"></q-icon>
+          youtube: blindfighters
+        </div>
+        <div class="text-h4 q-ma-lg col-8">
+          <a href="https://www.instagram.com/blindfightersofficial/" target="_blank" rel="noopener noreferrer">
+            <q-icon><img src="../assets/instagram.png"></q-icon>
+            Instagram: blindfightersofficial
+          </a>
         </div>
       </div>
     </div>
@@ -53,5 +55,10 @@ export default defineComponent({
 .icon-img {
   width: fit-content;
   height: 24px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 </style>

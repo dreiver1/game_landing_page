@@ -6,12 +6,14 @@
     <div class="col-5" style="display: flex; align-items: center; justify-content: end;">
         <q-btn size="xl" color="red" text="white">Obter Game</q-btn>
     </div>
-    <div class="text-h6 col-12 text-white q-pa-sm" style="display: flex; align-items: center; justify-content: start;">
-        Folow me:
-        <div class="col-4">
-          <q-btn round><img class="icon-img q-mx-sm" src="../assets/instagram.png" alt="instagram"></q-btn>
+    <div class="row text-h6 col-12 text-white q-pa-sm" style="display: flex; align-items: center; justify-content: start;">
+        <div class="col-1">
+          Folow me:
         </div>
-        <div class="col-4">
+        <div class="q-pa-md">
+          <q-btn round><img class="icon-img" src="../assets/instagram.png" alt="instagram"></q-btn>
+        </div>
+        <div class="q-pa-md">
           <q-btn round><img class="icon-img" src="../assets/youtube.png" alt="instagram"></q-btn>
         </div>
     </div>
