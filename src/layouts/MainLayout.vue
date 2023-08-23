@@ -3,17 +3,20 @@
 
     <div class="text-white header" style="background-color: rgba(0, 0, 0, 0);">
       <q-toolbar>
-        <q-toolbar-title>
+        <q-toolbar-title class="row items-center">
           <q-avatar class="q-pr-xl">
             <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg">
+            <!-- <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg"> -->
           </q-avatar>
-          Blind Fighters
+         <div class="title">
+          BLIND FIGHTERS
+         </div>
         </q-toolbar-title>
         <q-tabs v-model="tab" shrink stretch aria-checked="true">
-          <q-route-tab to="/" label="Home" />
-          <q-route-tab to="/" label="About US" />
-          <q-route-tab to="/" label="Youtube" />
-          <q-route-tab to="/" label="Contact ME" />
+          <q-route-tab name="home" to="/" label="Home" />
+          <q-route-tab name="about" to="/about" label="About US" />
+          <q-route-tab name="youtube" to="/youtube" label="Youtube" />
+          <q-route-tab name="conctact" to="/contact" label="Contact ME" />
         </q-tabs>
       </q-toolbar>
     </div>
@@ -37,6 +40,14 @@ export default {
 </script>
 
 <style scoped>
+.title {
+  font-size: xx-large;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(14, 14, 14, 0.692);
+}
+
 .q-tab.q-tab--active {
   background-color: #f44336;
   color: #fff;
@@ -53,6 +64,4 @@ export default {
   padding-top: 1%;
 }
 
-.page-content {
-}
 </style>

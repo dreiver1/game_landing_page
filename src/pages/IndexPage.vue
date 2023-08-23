@@ -1,5 +1,6 @@
 <template>
-  <q-page class="row full-width items-center wrap" style="background-image: url('https://images.alphacoders.com/128/1289055.jpg'); background-size: cover;">
+  <q-page class="row full-width items-center wrap" style="background-image: url('src/assets/bg.png'); background-size: cover;">
+  <!-- <q-page class="row full-width items-center wrap" style="background-image: url('https://images.alphacoders.com/128/1289055.jpg'); background-size: cover;"> -->
     <div class="col-6 wrap text-h3 text-white padding">
         Unindo Forças Além da Visão: O Poder da Luta em um Mundo de Realidade Aumentada Inclusiva.
     </div>
@@ -26,14 +27,13 @@ export default defineComponent({
 })
 </script>
 <style>
+
 .text-h3 {
-  font-size: xx-large;
-  font-weight: bold;
-  text-shadow: 3px solid black;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px black;
   padding: 25px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgba(14, 14, 14, 0.692);
 }
+
 .icon-img {
   width: fit-content;
   height: 24px;
