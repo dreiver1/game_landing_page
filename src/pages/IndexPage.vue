@@ -1,6 +1,5 @@
 <template>
-  <q-page class="row full-width items-center wrap" style="background-image: url('src/assets/bg.png'); background-size: cover;">
-  <!-- <q-page class="row full-width items-center wrap" style="background-image: url('https://images.alphacoders.com/128/1289055.jpg'); background-size: cover;"> -->
+  <q-page class="row full-width items-center wrap" style="background-image: url('https://images.alphacoders.com/128/1289055.jpg'); background-size: cover;">
     <div class="col-6 wrap text-h3 text-white padding">
         Unindo Forças Além da Visão: O Poder da Luta em um Mundo de Realidade Aumentada Inclusiva.
     </div>

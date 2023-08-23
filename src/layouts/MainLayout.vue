@@ -6,7 +6,6 @@
         <q-toolbar-title class="row items-center">
           <q-avatar class="q-pr-xl">
             <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg">
-            <!-- <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg"> -->
           </q-avatar>
          <div class="title">
           BLIND FIGHTERS

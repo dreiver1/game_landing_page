@@ -1,16 +1,16 @@
 <template>
-  <q-page class="column full-width items-center content-center justify-center" style="background-image: url('src/assets/bg.png'); background-size: cover;">
+  <q-page class="column full-width items-center content-center justify-center" style="background-image: url('https://images.alphacoders.com/128/1289055.jpg'); background-size: cover;">
     <div class="row justify-start full-width col-12">
       <div class="row flex-center wrap col-6 text-white about">
         <div class="text-h4 q-ma-lg col-6">
           Contatos:
         </div>
         <div class="text-h4 q-ma-lg col-6">
-          <q-icon><img src="src/assets/instagram.png"></q-icon>
+          <q-icon><img src="../assets/instagram.png"></q-icon>
           Instagram
         </div>
         <div class="text-h4 q-ma-lg col-6">
-          <q-icon><img src="src/assets/youtube.png"></q-icon>
+          <q-icon><img src="../assets/youtube.png"></q-icon>
           youtube
         </div>
         <div class="text-h4 q-ma-lg col-6">

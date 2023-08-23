@@ -1,5 +1,5 @@
 <template>
-  <q-page class="column full-width items-center content-center justify-center" style="background-image: url('src/assets/bg.png'); background-size: cover;">
+    <q-page class="row full-width items-center wrap" style="background-image: url('https://images.alphacoders.com/128/1289055.jpg'); background-size: cover;">
     <div class="row flex-center full-width col-12">
       <div class="flex flex-center col-7 text-white about ">
         <div class="text-h4 q-ma-lg">
